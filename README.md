@@ -29,14 +29,21 @@ The sub-projects include:
 
 A "hello world" TypeScript program compiled directly with the TypeScript compiler: `tsc`.
 
-See the README in [hello-world/](hello-world/). 
+See the README in [hello-world/](hello-world/).
+
+
+### `enums/`
+
+A TypeScript program that showcases enums.
+
+See the README in [enums/](enums/).
 
 
 ## Wish List
 
 General clean ups, TODOs and things I wish to implement for this project:
 
-* [ ] Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
+* [ ] IN PROGRESS Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
 * [x] DONE Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
 
 

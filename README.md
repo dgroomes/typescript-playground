@@ -37,7 +37,7 @@ See the README in [hello-world/](hello-world/).
 General clean ups, TODOs and things I wish to implement for this project:
 
 * [ ] Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
-* [ ] Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
+* [x] DONE Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
 
 
 ## Reference

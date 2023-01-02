@@ -43,9 +43,9 @@ See the README in [enums/](enums/).
 
 General clean ups, TODOs and things I wish to implement for this project:
 
-* [ ] IN PROGRESS Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
+* [x] DONE Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
 * [x] DONE Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
-
+* [ ] Add a "union types" (or similar) example.
 
 ## Reference
 

@@ -8,7 +8,7 @@ A TypeScript program that showcases enums.
 How do enums work in TypeScript? How do they differ from enums in other programming languages? This codebase explores
 TypeScript enums in a runnable program.
 
-Enums are a feature of many programming languages and the word is an abbreviation of "enumerations".
+Enums are a feature of many programming languages and the word is an abbreviation of ["enumerated type"](https://en.wikipedia.org/wiki/Enumerated_type).
 
 
 ## Instructions
@@ -34,18 +34,31 @@ Follow these instructions to build and run the program.
       ```
     * The output will look like this:
       ```text
-      0 is a direction.
-      1 is a direction.
-      2 is a direction.
-      3 is a direction.
-      Up is a direction.
-      Down is a direction.
-      Left is a direction.
-      Right is a direction.
+      Let's learn about enums in TypeScript.
+      Let's iterate over the `Direction` enum using the `for in` syntax...
+      Found value '0'. The type of this value is 'string'.
+      Found value '1'. The type of this value is 'string'.
+      Found value '2'. The type of this value is 'string'.
+      Found value '3'. The type of this value is 'string'.
+      Found value 'Up'. The type of this value is 'string'.
+      Found value 'Down'. The type of this value is 'string'.
+      Found value 'Left'. The type of this value is 'string'.
+      Found value 'Right'. The type of this value is 'string'.
       ```
-    * That's a bit strange. Why does it output the name of the enum value and the ordinal as if they are two separate
-      entries in the enum? That's not what I'm used to in other programming languages. Is there a way to iterate over
-      just the named entries?
+    * That was interesting. We got the enum member names like 'Up' and 'Down' but we also got the enum member values
+      like '1' and '2'. Even stranger is that the enum member values (I think I'm using the right terminology but not
+      100%) for 1 and 2 are of type string and not number. I think I need to inspect the compiled JavaScript to better
+      understand why it works this way.
+
+
+## Notes
+
+The items defined in a TypeScript enum are called *members*. This is important for me to remember because I'm tempted to
+call them fields or entries.
+
+TypeScript enums are a bit unusual. They are significantly different than enums in other languages and [in many cases
+you can still get the effect of enums by using object types](https://www.typescriptlang.org/docs/handbook/enums.html?azure-portal=true#objects-vs-enums).
+I'm probably going to stay away from enums until I grok TypeScript better.
 
 
 ## Reference

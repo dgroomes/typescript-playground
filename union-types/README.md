@@ -10,15 +10,16 @@ I haven't used union types much in my own programming experience. Java and Kotli
 some small ways like the fact that nullable variables are actually a union type between some type and null. For example,
 in Kotlin, you might express a variable as type `String?` and in other languages you might express this with something
 like `String | Null`. Also where type inference happens in Java's `var` keyword (and tons of places in Kotlin) union
-types are happening. But neither Java nor Kotlin have what is called *denotable* union types. Denotable types are types
-that can be expressed explicitly in the program. Here is an example of a denotable union type written in TypeScript:
+types may also be happening. But neither Java nor Kotlin have what is called *denotable* union types. Denotable types
+are types that can be expressed explicitly in the program. Here is an example of a denotable union type written in
+TypeScript:
 
 ```typescript
 type FavoriteThing = string | number // The union of string and number is captured in a denotable type named 'FavoriteThing'
 
 function describeFavoriteThing(thing: FavoriteThing) {
     if (typeof thing === 'string') {
-        console.log(`You favorite thing is a phrase: '${thing}'`)
+        console.log(`Your favorite thing is a phrase: '${thing}'`)
     } else {
         console.log(`Your favorite thing is a number: ${thing}`)
     }
@@ -64,13 +65,13 @@ Follow these instructions to build and run the program.
       Ok let's try another example...
       
       It looks like we got a static fact. Just return it.
-      Static light fact: The speed of light travels around the world at 7 times per second.
+      Static light fact: The speed of light can circle the world at 7 times per second.
       It looks like we got a dynamic fact. Let's inject some dynamism by creating a random number as a basis for the dynamic fact.
       Dynamic square fact: The square of 5 is 25.
       It looks like we got a dynamic fact. Let's inject some dynamism by creating a random number as a basis for the dynamic fact.
-      Dynamic square fact: The square of 7 is 49.
+      Dynamic square fact: The square of 4 is 16.
       It looks like we got a dynamic fact. Let's inject some dynamism by creating a random number as a basis for the dynamic fact.
-      Dynamic square fact: The square of 8 is 64.
+      Dynamic square fact: The square of 9 is 81.
       ```
 
 

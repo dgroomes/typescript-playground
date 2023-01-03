@@ -27,9 +27,9 @@ function describe(language: FunctionalFriends) : string {
 
     // Notice that there isn't a default case statement! The TypeScript compiler is smart enough to verify that that
     // only "Haskell", "F#" or "Kotlin" are allowed to be passed to this function and that for any of these values,
-    // the function returns a string. Thus, the function implementation satisfies the function signature. No need to
-    // write a do-nothing default case statement or a do-nothing return statement with the value of "This should never
-    // happen" just to please the compiler!
+    // the code paths inside the function lead to a return statement. Thus, the function implementation satisfies the
+    // function signature. No need to write a do-nothing default case statement or return statement with the value of
+    // "This should never happen" just to please the compiler!
 }
 
 console.log(describe("Haskell"))
@@ -38,7 +38,7 @@ console.log(describe("Kotlin"))
 
 // This line doesn't compile when uncommented. Specifically, it cause the following compiler error.
 //
-//   TS2345: Argument of type '"Scala"' is not assignable to parameter of type 'FunctionalProgrammingLanguages'.
+//   TS2345: Argument of type '"Scala"' is not assignable to parameter of type 'FunctionalFriends'.
 //
 // console.log(describe("Scala"))
 
@@ -63,7 +63,7 @@ function getFact(supplier: FactSupplier): string {
     }
 }
 
-const staticLightFact = getFact("The speed of light travels around the world at 7 times per second")
+const staticLightFact = getFact("The speed of light can circle the world at 7 times per second")
 console.log(`Static light fact: ${staticLightFact}.`)
 
 function squareFact(x: number) { return `The square of ${x} is ${x * x}` }

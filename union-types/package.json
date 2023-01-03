@@ -1,0 +1,12 @@
+{
+  "name": "typescript-playground-union-types",
+  "description": "A TypeScript program that showcases union types.",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

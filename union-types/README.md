@@ -78,3 +78,13 @@ Follow these instructions to build and run the program.
 ## Reference
 
 * [TypeScript docs: *TypeScript for Functional Programmers*](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html)
+  * This is an awesome document. I quickly introduced me to some concepts I never knew about and it did it very concisely.
+    In fact, it's so dense and terse that I needed to look up other references to actually understand concepts like
+    "discriminated" and "tagging". I'm glad I have a name for these concepts which I already knew but didn't have a
+    name for. That said, the fact that TypeScript discriminates on the `arg` variable example in the *Unions* section
+    using `Array.isArray` is wild. Wisely, that same section warns about this language feature with the following.
+
+    > It is possible, however, to generate unions that are difficult to differentiate at runtime. For new code, it’s best to build only discriminated unions.
+   
+    I'm not 100% sure what it means to build a discriminated union though. Does that mean name all my types before using
+    them in a union?

@@ -28,8 +28,9 @@ function describe(language: FunctionalFriends) : string {
     // Notice that there isn't a default case statement! The TypeScript compiler is smart enough to verify that that
     // only "Haskell", "F#" or "Kotlin" are allowed to be passed to this function and that for any of these values,
     // the code paths inside the function lead to a return statement. Thus, the function implementation satisfies the
-    // function signature. No need to write a do-nothing default case statement or return statement with the value of
-    // "This should never happen" just to please the compiler!
+    // function signature. (UPDATE: I learned that there is a phrase for this: "the function is total".) No need to
+    // write a do-nothing default case statement or return statement with the value of "This should never happen" just
+    // to please the compiler!
 }
 
 console.log(describe("Haskell"))

@@ -52,7 +52,7 @@ General clean ups, TODOs and things I wish to implement for this project:
 * [x] DONE Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
 * [x] DONE Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
 * [x] DONE Add a "union types" (or similar) example.
-* [ ] Clean up my `tsconfig.json` files. I can't remember what is important and what is right for 2023. 
+* [x] DONE Clean up my `tsconfig.json` files. I can't remember what is important and what is right for 2023. 
 
 
 ## Reference
@@ -60,3 +60,12 @@ General clean ups, TODOs and things I wish to implement for this project:
 * [GitHub repo: `javascript-playground`](https://github.com/dgroomes/javascript-playground)
     * This is another project of my own. It contains some TypeScript examples which would be better suited for this
       project. I'll migrate them over here in the future.
+* [TypeScript docs: *What is a tsconfig.json*](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+    * Interestingly, there are TSConfig *base files*. I didn't know about that before. For example, [@tsconfig/node16](https://www.npmjs.com/package/@tsconfig/node16).
+      It's intriguing, but it's community-driven and not driven by the TypeScript and there aren't explanations for the
+      configurations. I'm not sure if I want to create a dependency relationship on this. I might prefer copy and paste.
+      Update: I'm confused, the TSConfig base I used (``) uses the value "es2022" for "lib" and that isn't even listed
+      as a value in the official TSConfig docs. It goes up to "es2021" which maybe that needs updating, but still, I'll
+      stick with official guidance for configuration that I don't have a reason to change. Usefully, Intellij is highlighting
+      the value with a warning. Update again: ah the official TypeScript docs for `lib` even admin "This list may be out of date"!
+      Ok that's fair TypeScript team. Point to you TSConfig base community.

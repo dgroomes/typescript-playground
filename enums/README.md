@@ -34,21 +34,15 @@ Follow these instructions to build and run the program.
       ```
     * The output will look like this:
       ```text
-      Let's learn about enums in TypeScript.
-      Let's iterate over the `Direction` enum using the `for in` syntax...
-      Found value '0'. The type of this value is 'string'.
-      Found value '1'. The type of this value is 'string'.
-      Found value '2'. The type of this value is 'string'.
-      Found value '3'. The type of this value is 'string'.
-      Found value 'Up'. The type of this value is 'string'.
-      Found value 'Down'. The type of this value is 'string'.
-      Found value 'Left'. The type of this value is 'string'.
-      Found value 'Right'. The type of this value is 'string'.
+      Let's learn about enums in TypeScript by simulated a text-based adventure game.
+      
+      You are facing forward.
+      You moved forward.
+      You are facing right.
+      You did a 180! You are facing left now.
+      'Diagonally is not a legal command.
       ```
-    * That was interesting. We got the enum member names like 'Up' and 'Down' but we also got the enum member values
-      like '1' and '2'. Even stranger is that the enum member values (I think I'm using the right terminology but not
-      100%) for 1 and 2 are of type string and not number. I think I need to inspect the compiled JavaScript to better
-      understand why it works this way.
+    * Read the source code and make some changes to "learn by doing".
 
 
 ## Notes

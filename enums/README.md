@@ -34,7 +34,7 @@ Follow these instructions to build and run the program.
       ```
     * The output will look like this:
       ```text
-      Let's learn about enums in TypeScript by simulated a text-based adventure game.
+      Let's learn about enums in TypeScript by simulating a text-based adventure game.
       
       You are facing forward.
       You moved forward.

@@ -1,4 +1,4 @@
-console.log("Let's learn about enums in TypeScript by simulated a text-based adventure game.")
+console.log("Let's learn about enums in TypeScript by simulating a text-based adventure game.")
 console.log("")
 
 enum Direction {

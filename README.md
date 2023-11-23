@@ -15,14 +15,14 @@ concepts and trivia I've learned into runnable example programs, complete with v
 **NOTE**: This project was developed on macOS. It is for my own personal use.
 
 
-## Standalone sub-projects
+## Standalone subprojects
 
-This repository illustrates different concepts, patterns and examples via standalone sub-projects. Each sub-project is
-completely independent of the others and do not depend on the root project. This _standalone sub-project constraint_
-forces the sub-projects to be complete and maximizes the reader's chances of successfully running, understanding, and
+This repository illustrates different concepts, patterns and examples via standalone subprojects. Each subproject is
+completely independent of the others and do not depend on the root project. This _standalone subproject constraint_
+forces the subprojects to be complete and maximizes the reader's chances of successfully running, understanding, and
 re-using the code.
 
-The sub-projects include:
+The subprojects include:
 
 
 ### `hello-world/`
@@ -47,7 +47,7 @@ See the README in [union-types/](union-types/).
 
 ## Wish List
 
-General clean ups, TODOs and things I wish to implement for this project:
+General clean-ups, TODOs and things I wish to implement for this project:
 
 * [x] DONE Add an enum example. There are a lot of TypeScript features I want to learn but enums are top of my mind.
 * [x] DONE Add a dev container definition. I want to be able to run this in GitHub Codespaces or VS Code Remote Containers.
@@ -64,8 +64,8 @@ General clean ups, TODOs and things I wish to implement for this project:
     * Interestingly, there are TSConfig *base files*. I didn't know about that before. For example, [@tsconfig/node16](https://www.npmjs.com/package/@tsconfig/node16).
       It's intriguing, but it's community-driven and not driven by the TypeScript and there aren't explanations for the
       configurations. I'm not sure if I want to create a dependency relationship on this. I might prefer copy and paste.
-      Update: I'm confused, the TSConfig base I used (``) uses the value "es2022" for "lib" and that isn't even listed
+      Update: I'm confused, the TSConfig base I used uses the value "es2022" for "lib" and that isn't even listed
       as a value in the official TSConfig docs. It goes up to "es2021" which maybe that needs updating, but still, I'll
       stick with official guidance for configuration that I don't have a reason to change. Usefully, Intellij is highlighting
-      the value with a warning. Update again: ah the official TypeScript docs for `lib` even admin "This list may be out of date"!
+      the value with a warning. Update again: ah the official TypeScript docs for `lib` even admits "This list may be out of date"!
       Ok that's fair TypeScript team. Point to you TSConfig base community.

@@ -44,9 +44,9 @@ npm install -g typescript
 Follow these instructions to build and run the program.
 
 1. Pre-requisite `tsc`
-   * I used version 4.9.4
+   * I used version 5.3.2
 2. Pre-requisite: Node.js
-    * I used version 18.12.1
+    * I used version 20.9.0
 3. Compile the TypeScript source code into JavaScript
    * ```shell
      tsc hello-world.ts

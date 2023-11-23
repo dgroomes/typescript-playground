@@ -16,9 +16,9 @@ Enums are a feature of many programming languages and the word is an abbreviatio
 Follow these instructions to build and run the program.
 
 1. Pre-requisite: npm
-    * I used npm version 8.19.2
+    * I used npm version 10.1.0
 2. Pre-requisite: Node.js
-    * I used version 18.12.1
+    * I used version 20.9.0
 3. Install dependencies
     * ```shell
       npm install
@@ -50,7 +50,7 @@ Follow these instructions to build and run the program.
 The items defined in a TypeScript enum are called *members*. This is important for me to remember because I'm tempted to
 call them fields or entries.
 
-TypeScript enums are a bit unusual. They are significantly different than enums in other languages and [in many cases
+TypeScript enums are a bit unusual. They are significantly different from enums in other languages and [in many cases
 you can still get the effect of enums by using object types](https://www.typescriptlang.org/docs/handbook/enums.html?azure-portal=true#objects-vs-enums).
 I'm probably going to stay away from enums until I grok TypeScript better.
 

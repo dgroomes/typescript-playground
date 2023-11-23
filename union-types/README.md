@@ -9,7 +9,7 @@ TypeScript [supports union types](https://www.typescriptlang.org/docs/handbook/t
 I haven't used union types much in my own programming experience. Java and Kotlin don't support union types except in
 some small ways like the fact that nullable variables are actually a union type between some type and null. For example,
 in Kotlin, you might express a variable as type `String?` and in other languages you might express this with something
-like `String | Null`. Also where type inference happens in Java's `var` keyword (and tons of places in Kotlin) union
+like `String | Null`. Also, where type inference happens in Java's `var` keyword (and tons of places in Kotlin) union
 types may also be happening. But neither Java nor Kotlin have what is called *denotable* union types. Denotable types
 are types that can be expressed explicitly in the program. Here is an example of a denotable union type written in
 TypeScript:
@@ -38,9 +38,9 @@ that.
 Follow these instructions to build and run the program.
 
 1. Pre-requisite: npm
-    * I used npm version 8.19.2
+    * I used npm version 10.1.0
 2. Pre-requisite: Node.js
-    * I used version 18.12.1
+    * I used version 20.9.0
 3. Install dependencies
     * ```shell
       npm install

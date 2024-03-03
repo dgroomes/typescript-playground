@@ -46,6 +46,13 @@ A TypeScript program that showcases union types.
 See the README in [union-types/](union-types/).
 
 
+### `utility-types/`
+
+Exploring TypeScript's *utility types* which enable powerful type designs using *type transformations*.
+
+See the README in [utility-types/](utility-types/).
+
+
 ## Wish List
 
 General clean-ups, TODOs and things I wish to implement for this project:

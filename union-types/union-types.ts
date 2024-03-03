@@ -37,7 +37,7 @@ console.log(describe("Haskell"))
 console.log(describe("F#"))
 console.log(describe("Kotlin"))
 
-// This line doesn't compile when uncommented. Specifically, it cause the following compiler error.
+// This line doesn't compile when uncommented. Specifically, it causes the following compiler error.
 //
 //   TS2345: Argument of type '"Scala"' is not assignable to parameter of type 'FunctionalFriends'.
 //
